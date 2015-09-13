@@ -1,5 +1,5 @@
 # SensorAccess
-Basic sensor access application to fetch details from raspberry.
+Basic sensor access application to fetch properties from raspberry.
 
 Details:
 <ul>
