@@ -37,7 +37,7 @@ class SensorAccess(object):
 
     def get_bytes_received(self, is_json = False):
         #net_stats = psutil.net_io_counters() #original
-        net_stats = psutil.network_io_counters(pernic=True)
+        net_stats = psutil.net_io_counters(pernic=True)
         nic = self._get_nic(net_stats)
         if nic:
             if is_json:
@@ -50,7 +50,7 @@ class SensorAccess(object):
 
     def get_bytes_sent(self, is_json = False):
         #net_stats = psutil.net_io_counters() #original
-        net_stats = psutil.network_io_counters(pernic=True)
+        net_stats = psutil.net_io_counters(pernic=True)
         nic = self._get_nic(net_stats)
         if nic:
             if is_json:
